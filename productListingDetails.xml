@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE productDetails [
+<!ELEMENT productDetails (product)+>
+<!ELEMENT product (name,description,rating,currentPrice,suggestedPrice)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT currentPrice (#PCDATA)>
+<!ELEMENT suggestedPrice (#PCDATA)>
+<!ATTLIST productDetails type CDATA #REQUIRED>
+]>
+<productDetails type="web">
+  <product>
+    <name>CounterStrike</name>
+    <description>A multiplayer game</description>
+    <rating>5</rating>
+    <currentPrice>2900</currentPrice>
+    <suggestedPrice>2500</suggestedPrice>
+  </product>
+  <product>
+    <name>Adobe Software</name>
+    <description>Used for creations and innovations</description>
+    <rating>5</rating>
+     <currentPrice>14000</currentPrice>
+    <suggestedPrice>12500</suggestedPrice>
+  </product>
+</productDetails>
