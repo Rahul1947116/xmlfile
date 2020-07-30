@@ -24,4 +24,33 @@
      <currentPrice>14000</currentPrice>
     <suggestedPrice>12500</suggestedPrice>
   </product>
+  <product>
+    <name>RoadRash</name>
+    <description>A simple bike game</description>
+    <rating>4</rating>
+    <currentPrice>1900</currentPrice>
+    <suggestedPrice>250</suggestedPrice>
+  </product>
+  <product>
+    <name>SuperMario</name>
+    <description>A multiplayer game</description>
+    <rating>5</rating>
+    <currentPrice>4500</currentPrice>
+    <suggestedPrice>2500</suggestedPrice>
+  </product>
+  <product>
+    <name>MiniMilitia</name>
+    <description>A multiplayer shooting game</description>
+    <rating>3</rating>
+    <currentPrice>Free</currentPrice>
+    <suggestedPrice>Free</suggestedPrice>
+  </product>
+  <product>
+    <name>FIFA 2020</name>
+    <description>A multiplayer football game</description>
+    <rating>5</rating>
+    <currentPrice>22900</currentPrice>
+    <suggestedPrice>20500</suggestedPrice>
+  </product>
+
 </productDetails>
